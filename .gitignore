@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Files too large
+Data/Pickles/dict_expanding_strat.pkl
+Data/Pickles/dict_sliding_strat.pkl

@@ -20,7 +20,6 @@ from tqdm import tqdm
 #### Data path
 data_path = os.path.join(
     os.getcwd(),
-    '2_OptimizacionPortafolio',
     'Data'
 )
 
@@ -242,7 +241,7 @@ def indicator_selection(list_indicators: list, split_strat: dict):
     # Implementing data pre-processing #
 #### Implementation
 ### Sliding strat
-sliding_strat_path = f'{data_path}/dict_sliding_strat.pkl'
+sliding_strat_path = f'{data_path}/Pickles/dict_sliding_strat.pkl'
 if os.path.isfile(sliding_strat_path):
     with open(sliding_strat_path, 'rb') as file:
         dict_sliding_fullsets = pickle.load(file)
@@ -251,7 +250,7 @@ else:
     pickle.dump(dict_sliding_fullsets, open(sliding_strat_path, 'wb'))
 
 ### Expanding strat
-expanding_strat_path = f'{data_path}/dict_expanding_strat.pkl'
+expanding_strat_path = f'{data_path}/Pickles/dict_expanding_strat.pkl'
 if os.path.isfile(expanding_strat_path):
     with open(expanding_strat_path, 'rb') as file:
         dict_expanding_fullsets = pickle.load(file)

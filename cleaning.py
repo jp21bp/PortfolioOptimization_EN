@@ -1,7 +1,7 @@
 """
 This file will clean the following two raw datas:
-* raw_top40.csv: the "Adj Close" of the top 40 companies in SPLAC
-* raw_top40_complete.csv: all components of the top 40 companies in SPLAC
+* Data/Raw/top40_adj_close.csv: the "Adj Close" of the top 40 companies in SPLAC
+* Data/Raw/top40_complete.csv: all components of the top 40 companies in SPLAC
 """
 
 ##### Importing libraries

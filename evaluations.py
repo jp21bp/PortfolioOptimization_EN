@@ -14,8 +14,6 @@ import numpy as np
 from pypfopt.efficient_frontier import EfficientFrontier
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
-from pypfopt import risk_models
-from pypfopt import expected_returns
 from scipy.optimize import minimize
 import os, copy, pickle
 from tqdm import tqdm

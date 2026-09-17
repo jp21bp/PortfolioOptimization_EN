@@ -327,12 +327,14 @@ class LSTMModel(tf.keras.Model):
 
     def call(self, inputs, training=False):
         # Add training to all layers with dropouts
-        x = self.lstm1(inputs, training=training)
-        x = self.dropout(x, training=training)
-        x = self.lstm2(x, training=training)
-        x = self.dropout(x, training=training)
-        x = self.dense(x)
-        return x
+        x = self.cnn(inputs)
+        y = self.lstm1(inputs, training=training)
+        z = self.avg([x,y])
+        z = self.dropout(z, training=training)
+        z = self.lstm2(z, training=training)
+        z = self.dropout(z, training=training)
+        z = self.dense(z)
+        return z
 
     def build(self):
         dummy_input = tf.zeros((1, WINDOW_SIZE, self.num_indicators * self.num_assets))

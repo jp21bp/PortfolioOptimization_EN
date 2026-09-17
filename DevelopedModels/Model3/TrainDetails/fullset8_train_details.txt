@@ -1,0 +1,11 @@
+Avg Stats 2 -- avg val RS: -0.04133, avg train RS: 0.17483, avg val RS change: -0.00553, avg train RS change: 0.02387, epoch: 2
+Avg Stats 3 -- avg val RS: -0.04684, avg train RS: 0.19669, avg val RS change: -0.00736, avg train RS change: 0.02982, epoch: 3
+Avg Stats 4 -- avg val RS: -0.05556, avg train RS: 0.19857, avg val RS change: -0.01148, avg train RS change: 0.01331, epoch: 4
+Avg Stats 5 -- avg val RS: -0.06563, avg train RS: 0.20078, avg val RS change: -0.01402, avg train RS change: 0.01173, epoch: 5
+Avg Stats 6 -- avg val RS: -0.07791, avg train RS: 0.21255, avg val RS change: -0.01725, avg train RS change: 0.02008, epoch: 6
+Avg Stats 7 -- avg val RS: -0.09384, avg train RS: 0.22365, avg val RS change: -0.02195, avg train RS change: 0.01989, epoch: 7
+Avg Stats 8 -- avg val RS: -0.1093, avg train RS: 0.23462, avg val RS change: -0.02271, avg train RS change: 0.02007, epoch: 8
+Avg Stats 9 -- avg val RS: -0.12453, avg train RS: 0.24184, avg val RS change: -0.0234, avg train RS change: 0.01651, epoch: 9
+Avg Stats 10 -- avg val RS: -0.14193, avg train RS: 0.25065, avg val RS change: -0.02628, avg train RS change: 0.0179, epoch: 10
+Avg Stats 11 -- avg val RS: -0.16006, avg train RS: 0.2616, avg val RS change: -0.02778, avg train RS change: 0.02001, epoch: 11
+Avg Stats 12 -- avg val RS: -0.17649, avg train RS: 0.27249, avg val RS change: -0.02679, avg train RS change: 0.02011, epoch: 12

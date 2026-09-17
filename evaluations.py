@@ -1,12 +1,9 @@
 """
-This file contains the following from the original paper:
-* Non-ML portoflio strategies
-* Performance Metrics
+This file will evaluate ML and non-ML strategies
 
 Details:
-* Risk free rate won't be incorporated for simplicity reasons
-* Using simple returns, since daily returns will be used for evaluation
-
+* The risk-free rate will not be implemented for simplicity reasons
+    - But the analysis remains complete, nonetheless
 """
 ##### Import libraries
 import pandas as pd
@@ -246,7 +243,7 @@ def MVO(df_asset_returns: pd.DataFrame, vol_scaling: bool) -> pd.Series:
 #### Implementation
 pickle_path = os.path.join(
     os.getcwd(),
-    '2_OptimizacionPortafolio',
+    'Data',
     'Pickles'
 )
 ### MVO no Vol. Scaling
@@ -332,7 +329,7 @@ def MDO(df_asset_returns: pd.DataFrame, vol_scaling: bool) -> pd.Series:
 #### Implementation
 pickle_path = os.path.join(
     os.getcwd(),
-    '2_OptimizacionPortafolio',
+    'Data', 
     'Pickles'
 )
 ### MDO no Vol. Scaling
@@ -361,7 +358,6 @@ all_port_returns['MDO_VS'] = ds_mdo_port_ret_VS
 #### Setting models' path
 developed_path = os.path.join(
     os.getcwd(),
-    '2_OptimizacionPortafolio',
     'DevelopedModels'
 )
 
@@ -408,7 +404,7 @@ for i in range(1,7):
     # Benchmark #
 ### Reading data
 df_bench = pd.read_csv(
-    f'{data_path}/raw_splac_prices.csv',
+    f'{data_path}/Raw/splac_aju_prices.csv',
     parse_dates=['Date'],
     index_col='Date'
 )

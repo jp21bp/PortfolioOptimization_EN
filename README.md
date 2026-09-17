@@ -49,6 +49,13 @@ The historical data was downloaded from YFinance, with the following details:
 * Companies (post-filtering): AMXB.MX, AXIA3.SA, BBAS3.SA, BIMBOA.MX, BSAC, CEMEXCPO.MX, CENCOSUD.SN, CIB, FEMSAUBD.MX, GCARSOA1.MX, GGB, ISA. CL, PAC, PBR, RENT3.SA, SCCO, SQM, VALE, VIV, WALMEX.MX, WEGE3.SA
 * Indicators: Adjusted Close, Close, High, Low, Open, and Volume.
 
+<br><br>
+
+Data processing, model component details, and training schema are [HERE](./tf_models.py)
+
+Model's graph is found [HERE](./Images/ModelGraph.png)
+
+Non-ML strategies and all evaluations are [HERE](./evaluations.py)
 
 
 

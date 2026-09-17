@@ -358,7 +358,7 @@ all_port_returns['MDO_VS'] = ds_mdo_port_ret_VS
 #### Setting models' path
 developed_path = os.path.join(
     os.getcwd(),
-    'DevelopedModels'
+    'ModelResults'
 )
 
 #### Function for processing

@@ -19,7 +19,7 @@
     * [ML Qualities with Better Results](#ml-qualities-with-better-results)
 7. [KPIs](#kpis)
     * [Ratio Sharpe](#ratio-sharpe)
-    * [Compounded Return](#compounded-return)
+    * [Cumulative Return](#cumulative-return)
     * [P/L Ratio](#pl-ratio)
 8. [Assumptions](#assumptions)
 
@@ -77,7 +77,7 @@ Conversely, non-ML strategies outperform ML strategies in the following categori
 **Benchmark**: The benchmark used was the SPLAC index for the financial sector in South America. Comparisons reveal that **all** direct investments (in the 40 companies included in the SPLAC index) yielded better results than a direct investment in the index.
 
 
-![Compounded Return](./Images/CompoundedReturns.png)
+![Cumulative Return](./Images/CumulativeReturns.png)
 
 
 ## Insight Details
@@ -140,7 +140,7 @@ On the other hand, a user may prioritize the profit-to-loss ratio (“P/L Ratio�
 <br>
 
 ### Industrial Sector Focus
-The industrial sector is experiencing a strong rally, yielding a **250% compound return** on the initial investment. In the short term, it is recommended to invest the vast majority of the funds into the industrial sector, provided there is diversification with other stocks. In the long term, it is recommended to continue monitoring the sector’s performance, keeping in mind that a shift in the market could begin to bolster another sector.
+The industrial sector is experiencing a strong rally, yielding a **250% cumulative return** on the initial investment. In the short term, it is recommended to invest the vast majority of the funds into the industrial sector, provided there is diversification with other stocks. In the long term, it is recommended to continue monitoring the sector’s performance, keeping in mind that a shift in the market could begin to bolster another sector.
 
 <br>
 
@@ -158,11 +158,11 @@ Objective: Increase the Sharpe ratio of the current portfolio by 67%. To achieve
 
 <br>
 
-### Compounded Return
+### Cumulative Return
 \prod_{i=1}^t (1 + simple_return_i)
 
 
-Focus: Improve the portfolio's compound return. This will naturally follow as portfolio returns improve.
+Focus: Improve the portfolio's cumulative return. This will naturally follow as portfolio returns improve.
 
 <br>
 

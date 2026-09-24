@@ -51,7 +51,7 @@ The historical data was downloaded from YFinance, with the following details:
 
 <br><br>
 
-Data processing, model component details, and training schema are [HERE](./tf_models.py)
+Data processing, model components details, and training schema are [HERE](./tf_models.py)
 
 Model's graph is found [HERE](./Images/ModelGraph.png)
 

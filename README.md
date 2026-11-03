@@ -27,8 +27,6 @@
 
 ![Portfolio Optimization Dashboard](./Images/Dashboard.png)
 
-Tableau Interactive Dashboard [HERE](https://public.tableau.com/views/NaMariaPacked/NaMaria-Dash?:language=en-EN&:showVizHome=no&:embed=yes)
-
 Market Overview Tableau Dashboard 1 [HERE](https://public.tableau.com/views/ExecutiveLevel_MarketOverview/MarketOverview?:language=en-EN&:showVizHome=no&:embed=yes)
 
 Sector Analysis Tableau Dashboard 2 [HERE](https://public.tableau.com/views/StockSector_EquityPerformance/SectorAnalysis?:language=en-EN&:showVizHome=no&:embed=yes)

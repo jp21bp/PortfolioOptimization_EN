@@ -23,6 +23,16 @@
     * [P/L Ratio](#pl-ratio)
 8. [Assumptions](#assumptions)
 
+## Tableau Dashboard
+
+![Portfolio Optimization Dashboard](./Images/Dashboard.png)
+
+Tableau Interactive Dashboard [HERE](https://public.tableau.com/views/NaMariaPacked/NaMaria-Dash?:language=en-EN&:showVizHome=no&:embed=yes)
+
+Market Overview Tableau Dashboard 1 [HERE](https://public.tableau.com/views/ExecutiveLevel_MarketOverview/MarketOverview?:language=en-EN&:showVizHome=no&:embed=yes)
+
+Sector Analysis Tableau Dashboard 2 [HERE](https://public.tableau.com/views/StockSector_EquityPerformance/SectorAnalysis?:language=en-EN&:showVizHome=no&:embed=yes)
+
 ## Project Background
 Capital Andina (CA) is an asset management firm in Peru that specializes in equity investments and portfolios in the South American financial sector. Its diversification strategy includes financial companies listed on exchanges in Brazil, Chile, Colombia, and Peru. The firm primarily uses the SPLAC index, which comprises the 40 largest companies in Latin America, as its benchmark.
 

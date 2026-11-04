@@ -58,6 +58,7 @@ The historical data was downloaded from YFinance, with the following details:
 * Indicators: Adjusted Close, Close, High, Low, Open, and Volume.
 
 <br><br>
+SQL queries are found [HERE](./SQL_script.sql)
 
 Data processing, model components details, and training schema are [HERE](./tf_models.py)
 
